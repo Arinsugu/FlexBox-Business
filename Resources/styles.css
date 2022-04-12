@@ -1,42 +1,3 @@
-/*
-.header {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  border-bottom: solid 1px #c6c1c1;
-  background-color: white;
-  z-index: 5;
-  top: 0;
-  padding: 0.5rem;
-  justify-content: space-around;
-}
-
-.header h1 {
-  justify-content: center;
-  align-content: center;
-}
-
-.header .navbar {
-  text-align: center;
-  align-items: center;
-}
-
-.navbar p {
-  display: inline-flex;
-  line-height: 1.2rem;
-  margin: auto;
-  padding-left: 1rem;
-}
-
-.navbar a {
-  vertical-align: bottom;
-}
-
-.navbar img {
-    width: 1.2rem;
-    height: 1.2rem;
-}
-*/
 body {
   font-family: 'Courier Prime', Courier, monospace;
   background-color: #FFF8FF;
@@ -98,7 +59,7 @@ header .desktop img {
 
 .main {
   position: relative;
-  top: 7.5rem; /* To offset for fixed header. */
+  top: 7.5rem;
 }
 
 .about {
